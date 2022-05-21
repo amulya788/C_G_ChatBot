@@ -1,0 +1,204 @@
+body {
+    min-height: 100vh;
+}
+
+.main-div {
+    top: 0;
+    bottom: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    width: 50px;
+    background-color: #b4afaf;
+    top: 0;
+    bottom: 0;
+}
+
+li {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* details div 
+                         */
+
+.details-div-all {
+    float: left;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: rgb(245, 245, 235);
+    border: none;
+
+}
+
+.details-div-search-filter {
+
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.details-div-first {
+    background-color: pink;
+}
+
+.details-div {
+    background-color: rgb(245, 245, 235);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 360px;
+}
+
+option {
+    border-style: none;
+}
+
+.open-new-div {
+    float: right;
+    margin-left: 20px;
+}
+
+#open-div {
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background-color: rgb(245, 245, 235);
+    font-size: 15px;
+
+}
+
+#new-div {
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background-color: rgb(245, 245, 235);
+    font-size: 15px;
+
+
+}
+
+#div-all {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background-color: rgb(245, 245, 235);
+    width: 50px;
+}
+
+.secondDiv {
+    background-color: rgb(131, 28, 28);
+    width: 100%;
+    margin: 100px;
+
+}
+
+.kb {
+    padding: 3px;
+}
+
+.keyboard {
+    /* background-color: greenyellow; */
+    width: 500px;
+    height: 150px;
+    margin-left: 450px;
+    margin-top: 500px;
+    border-radius: 7px;
+    border: 1px solid blue;
+}
+
+.flex-container-keyboard {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+.btnSend {
+    color: white;
+    margin-top: 35px;
+    margin-left: 510px;
+    width: 100px;
+    height: 65px;
+    position: relative;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+}
+
+.ud {
+    padding: 25px;
+}
+
+.contactDetails {
+    background-color: whitesmoke;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -1px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.addTags {
+    background-color: whitesmoke;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 13px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.notes {
+    background-color: whitesmoke;
+    height: 175px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 13px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.userDetails {
+    background-color: rgb(172, 169, 169);
+    margin-left: 1058px;
+    height: 657px;
+    position: relative;
+}
+
+.flex-userDetails {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.chat {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(211, 211, 204);
+
+}
+
+.flex-box-chat1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 420px;
+    padding: 5px;
+
+}
+
+.flex-box-chat {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}

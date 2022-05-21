@@ -1,0 +1,111 @@
+.notify-main-div {
+    /* background-color: rgb(121, 183, 238); */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.icon-div {
+    /* background-color: rgb(203, 238, 121); */
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.title-div {
+    /* background-color: rgb(203, 238, 121); */
+    position: absolute;
+    top: 25px;
+    left: 160px;
+}
+
+.para-div {
+
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    width: 500px;
+}
+
+.btn-new-campaign {}
+
+#new-campaign {
+    position: absolute;
+    top: 50px;
+    left: 1140px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+
+.sub-para {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sub-para-div {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+.conversation {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.conversation-div {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
+
+.n-btn {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    position: absolute;
+    top: 250px;
+    left: 153px;
+}
+
+
+#campaigns-btn {
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(196, 193, 193);
+    border: none;
+    border-radius: 5px;
+}
+
+#name-btn {
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(196, 193, 193);
+    border: none;
+    border-radius: 5px;
+}
+
+#state-btn {
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(196, 193, 193);
+    border: none;
+    border-radius: 5px;
+}
